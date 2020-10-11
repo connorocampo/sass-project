@@ -1,0 +1,24 @@
+@media (max-width: 700px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+  }
+
+  .showcase {
+    height: 100%;
+
+    &-content {
+      text-align: center;
+
+      img {
+        display: none;
+      }
+    }
+  }
+
+  iframe {
+    // height: 100%;
+    width: 100%;
+  }
+}
